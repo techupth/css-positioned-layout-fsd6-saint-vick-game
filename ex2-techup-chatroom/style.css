@@ -1,1 +1,64 @@
-/* Start coding here */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.header {
+  padding: 10px;
+  font-size: 30px;
+  width: 100%;
+  background-color: gray;
+  color: white;
+}
+.massage {
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.right {
+  align-items: flex-end;
+}
+.left {
+  align-items: flex-start;
+}
+.text {
+  width: 200px;
+  border-radius: 25px;
+  margin: 5px;
+  padding: 10px;
+}
+.one,
+.three {
+  background-color: rgba(5, 180, 5, 0.734);
+}
+.two {
+  z-index: 0;
+  background-color: gainsboro;
+}
+.four,
+.five {
+  background-color: gray;
+}
+.X {
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  transform: translate(50%, 50%);
+  width: 25px;
+  height: 25px;
+  background-color: rgba(127, 127, 127, 0.867);
+  border-radius: 50%;
+  bottom: 110px;
+  right: 10px;
+}
