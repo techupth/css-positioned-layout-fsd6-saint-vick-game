@@ -1,1 +1,60 @@
 /* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: gray;
+  color: aliceblue;
+  padding: 20px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.text-right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 50px;
+  gap: 15px;
+}
+.text-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 50px;
+  gap: 15px;
+}
+
+.text-box {
+  display: flex;
+  align-items: center;
+  background-color: #22c55e;
+  width: 170px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.text-cancle {
+  position: relative;
+  background-color: rgb(226, 223, 218);
+}
+
+.cancle {
+  background-color: rgba(128, 128, 128, 0.176);
+  padding: 5px 8px;
+  border-radius: 50px;
+  font-size: 10px;
+  position: absolute;
+  left: 150px;
+  bottom: 20px;
+}
+
+.text-friend {
+  background-color: #4b5563;
+}
