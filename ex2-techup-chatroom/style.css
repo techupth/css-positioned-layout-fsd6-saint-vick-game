@@ -1,1 +1,53 @@
-/* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: grey;
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+}
+.texter {
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-end;
+  width: 100vw;
+}
+
+.p1,
+.p3 {
+  background-color: #09be09;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 15px;
+  width: 170px;
+}
+
+.p2 {
+  background-color: #e6e2e2;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.x {
+  background-color: #7b7b7b;
+  position: absolute;
+  bottom: 15px;
+  left: 150px;
+  color: white;
+  padding: 3px 7px;
+  border-radius: 50%;
+}
+
+.receiver p {
+  background-color: grey;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 15px;
+  width: 150px;
+}
